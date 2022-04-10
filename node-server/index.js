@@ -2,7 +2,6 @@ const express = require('express')
 const port = 3002
 const cors = require('cors');
 
-
 const post1 = {
   id: 1,
   title: "Sheesh",
@@ -25,7 +24,6 @@ const post3 = {
 }
 
 let data= {1:post1, 2:post2, 3:post3}
-
 
 const app = express();
 app.use(cors());
